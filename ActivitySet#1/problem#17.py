@@ -18,6 +18,8 @@ while True:
             largest = inum
         elif smallest==None or inum < smallest:
             smallest = inum
+
+            
             
     except:
         print("Invalid input")

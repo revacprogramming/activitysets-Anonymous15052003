@@ -4,17 +4,19 @@
 # You can download the sample data at http://www.py4e.com/code3/romeo.txt
 
 
-name = input("Enter the file name : ")
+name = input("Enter file name: ")
 
 file = open(name)
 
 l = []
 
-for i in name:
-    word = i.split()
-    if word in l:
-        continue
-    else:
-        l.append(word)
-
-print(l)
+for line in file:                    
+    p=line.split()
+    for i in p:
+        if i in l:
+            continue
+        else:
+            l.append(i)
+    
+l.sort()
+print(l)                       
