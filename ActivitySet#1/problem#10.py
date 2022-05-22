@@ -5,9 +5,6 @@
 
 name = input("Enter the name of the file : ")
 
-if len(name) < 1 : 
-    name = "mbox-short.txt"
-
 file = open(name)
 
 l = []
