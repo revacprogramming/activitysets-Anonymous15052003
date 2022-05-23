@@ -1,5 +1,7 @@
 def get_cs():
     str=input("Enter the string : ")
+    return str
+
 
 def cs_to_lot(str):
     l=[]
