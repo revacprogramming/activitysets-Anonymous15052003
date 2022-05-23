@@ -1,10 +1,17 @@
+def input_two_numbers():
+    a=int(input("Enter a : "))
+    b=int(input("Enter b : "))
+    return a, b
+
 
 def add(a, b):
-    pass  # ...
+    c=a+b
+    return c
 
 
 def output(a, b, sum):
-    pass  # ...
+    print("The addition of ",a," + ",b,"=",sum)
+
 
 
 def main():
