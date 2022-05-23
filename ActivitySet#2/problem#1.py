@@ -1,12 +1,16 @@
-
-
 def add(a, b):
-    return  # ...
+    c=a+b
+    return c
 
 
 def main():
-    a = input  # ...
-    b = input  # ...
+    a = int(input("Enter 1st number : "))
+    b = int(input("Enter 2nd number : "))
 
     c = add(a, b)
-    print  # ...
+    print(c)
+
+main()
+
+''' if __name__=="__main__":
+    main() '''
