@@ -1,11 +1,14 @@
-
-
 def get_cs():
-    """get string input"""
+    str=input("Enter the string : ")
 
+def cs_to_lot(str):
+    l=[]
+    for i in str.split(";"):
+        k=i.split("=")
+        t=tuple(k)
+        l.append(t)
 
-def cs_to_lot(cs):
-    """convert connected string to list of strings"""
+    return l
 
 
 def main():
@@ -17,3 +20,12 @@ def main():
 
 if __name__ == '__main__':
     main()
+
+# str=input("Enter the string : ")
+# l=[]
+# for i in str.split(";"):
+#     k=i.split("=")
+#     t=tuple(k)
+#     l.append(t)
+
+# print(l)
