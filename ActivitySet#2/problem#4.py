@@ -10,7 +10,7 @@ def cs_to_lot(cs):
         t=tuple(k)
         l.append(t)
 
-    return l
+    return l        #Returning list
 
 
 def lot_to_cs(lot):
