@@ -1,4 +1,4 @@
-# Working with lists
+# Working with list
 
 name = input("Enter the file name : ")
 
