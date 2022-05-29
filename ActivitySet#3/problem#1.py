@@ -4,4 +4,5 @@ n=int(input("Enter how many reactangle coordinates you want to input : "))
 
 for i in range(n+1):
     for j in range(n+1):
-        x=float(input("Enter "))
+        x=float(input("Enter X : "))
+        y=float(input("Enter Y : "))
