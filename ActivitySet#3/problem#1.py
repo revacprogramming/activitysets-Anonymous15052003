@@ -6,3 +6,4 @@ for i in range(n+1):
     for j in range(n+1):
         x=float(input("Enter X : "))
         y=float(input("Enter Y : "))
+        z=x*y
