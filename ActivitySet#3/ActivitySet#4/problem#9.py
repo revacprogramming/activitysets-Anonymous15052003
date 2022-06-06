@@ -1,0 +1,5 @@
+print(int(2.98))
+print(float(2))
+print(float(2.0000))
+print(str(2.0000))
+print(complex(2))
